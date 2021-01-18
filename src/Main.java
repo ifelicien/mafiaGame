@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Enter number of players");
         int numbOfPlayer = input.nextInt();
 
-        if (numbOfPlayer > 16) {
+        if (numbOfPlayer < 5 && numbOfPlayer > 17) {
             System.out.println("invalid selection");
         }
         else{
